@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Real time Pressure monitoring"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/btnpgraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnmail"
+        android:text="Live Pedobaro Graph"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnhgraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnpgraph"
+        android:text="Live center of force plot"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btnhist1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnhgraph"
+        android:text="Pressure History Graphs"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

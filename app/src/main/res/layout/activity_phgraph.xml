@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".phgraph">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/him1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/htx1"
+        android:layout_below="@+id/him1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peak pressure graph from yesterday"/>
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/him2"
+        android:layout_below="@+id/htx1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/him2"
+        android:text="Aggregate pressure graph from yesterday"/>
+</RelativeLayout>

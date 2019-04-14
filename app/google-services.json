@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "996864745281",
+    "firebase_url": "https://solemate-123.firebaseio.com",
+    "project_id": "solemate-123",
+    "storage_bucket": "solemate-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996864745281:android:d6b8eeac56a0d855",
+        "android_client_info": {
+          "package_name": "com.example.android.SoleMate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996864745281-5tokc26avsd3768kn09kg9828gm33g9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.SoleMate",
+            "certificate_hash": "284503ae72ee0be4a9a14aa35ba1c41d0857488c"
+          }
+        },
+        {
+          "client_id": "996864745281-jtsf5f2pjpi0994ubnv74ao54ds4atb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Bnw4mxkYSzfggn4YNjy8Np0UttZiSC0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996864745281-jtsf5f2pjpi0994ubnv74ao54ds4atb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
